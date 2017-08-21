@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="text/javascript" src="js/mosaic.js"></script>
+    <script type="text/javascript" src="js/client.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <title>Mosaic</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="wrap">
+        <div class="nav">
+          <div class="w-logo">
+            <div class="logo">Logo</div>
+          </div>
+          <div class="w-name">Mosaic generator</div>
+        </div>
+        <h2 class="title">Easy way to get all colors of your image - is color mosaic. Let's try! </h2>
+        <div class="w-upload">
+          <label for="img-upload" class="upload-label">
+            <div class="hover-label">
+              Upload your image <br>
+              Choose image
+            </div>
+          </label>
+          <input id="img-upload" type="file" class="upload-btn"></input>
+        </div>
+      </div>
+    </div>
+    <div class="main">
+      <div class="wrap">
+        <div class="w-user-images">
+          <div class="title">List of uploaded pictures</div>
+          <div class="img-list"></div>
+         </div>
+        <div class="w-user-mosaic">
+          <div class="spinner"></div>
+          <canvas id="mosaic" height="400" width="600"></canvas>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
